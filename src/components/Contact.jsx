@@ -3,9 +3,9 @@ import { Briefcase, Github, Linkedin, Mail } from 'lucide-react'
 import { fadeUp, staggerContainer } from '../lib/motion'
 
 const social = [
-  { label: 'GitHub', href: 'https://github.com/yourusername', icon: Github },
-  { label: 'LinkedIn', href: 'https://linkedin.com/in/yourprofile', icon: Linkedin },
-  { label: 'Fiverr', href: 'https://www.fiverr.com/yourusername', icon: Briefcase },
+  { label: 'GitHub', href: 'https://github.com/sachila24', icon: Github },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sachila-dissanayake-s20040124/', icon: Linkedin },
+  { label: 'Fiverr', href: 'https://www.fiverr.com/s/jj9jKlv', icon: Briefcase },
 ]
 
 export default function Contact() {

@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion'
-import { Briefcase, Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail } from 'lucide-react'
 import { fadeUp, staggerContainer } from '../lib/motion'
 
 const social = [
   { label: 'GitHub', href: 'https://github.com/sachila24', icon: Github },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sachila-dissanayake-s20040124/', icon: Linkedin },
-  { label: 'Fiverr', href: 'https://www.fiverr.com/s/jj9jKlv', icon: Briefcase },
 ]
 
 export default function Contact() {
@@ -34,8 +33,8 @@ export default function Contact() {
             custom={2}
             className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg"
           >
-            I am open to internship opportunities, freelance web development work, backend projects,
-            cloud deployment work, and collaboration on practical software ideas.
+            I am open to software engineering opportunities, freelance web development work, backend
+            projects, cloud deployment work, and collaboration on practical software ideas.
           </motion.p>
         </motion.div>
 

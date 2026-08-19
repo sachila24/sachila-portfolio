@@ -9,9 +9,9 @@ const projects = [
     title: 'bTanium – Live Vehicle Tracking System',
     type: 'Full-stack / Cloud / Android / Real-time Tracking',
     description:
-      'A live vehicle tracking system built with a React admin dashboard, Android driver app, AWS serverless backend, and DynamoDB-based tracking data flow. The system supports journey assignment, live vehicle status, route and driver management, and real-time tracking workflows.',
+      'A live vehicle tracking system built with a React admin dashboard, Android driver app, AWS serverless backend, and DynamoDB-based tracking data flow. The Android driver app covers journey assignment, start/stop actions, location tracking, and driver-side workflows, while the admin dashboard handles live vehicle status, routes, and real-time tracking.',
     contribution:
-      'Worked on Android app development, backend API integration, admin panel improvements, AWS deployment workflows, CI/CD, debugging, and production issue fixing.',
+      'Worked on the Android driver app (UI flows, location permissions, state handling, Logcat debugging), backend API integration, admin panel improvements, AWS deployment workflows, CI/CD, and production issue fixing.',
     tags: [
       'React',
       'Node.js',
@@ -23,6 +23,7 @@ const projects = [
       'CloudFront',
       'Android',
       'Kotlin',
+      'Location Services',
       'GitHub Actions',
     ],
     links: { live: 'https://tracking.btanium.com/', github: null },
@@ -47,40 +48,7 @@ const projects = [
     contribution:
       'Worked on the sales website design and frontend UI improvements only, including layout polish, responsive sections, visual hierarchy, and deployment support.',
     tags: ['Next.js', 'React', 'Tailwind CSS', 'UI/UX', 'S3', 'CloudFront'],
-    links: { live: 'mtanium.com', github: null },
-  },
-  {
-    id: 'android-driver',
-    title: 'Android Driver App',
-    type: 'Mobile App / Location Tracking',
-    description:
-      'An Android application focused on driver-side journey workflows, vehicle assignment, journey start/stop actions, location tracking flow, and mobile user experience.',
-    contribution:
-      'Worked on Android UI flows, API integration, state handling, permission handling, debugging with Logcat, and improving app stability.',
-    tags: ['Android', 'Kotlin', 'Location Services', 'REST API', 'Authentication'],
-    links: { live: null, github: null },
-  },
-  {
-    id: 'salon-booking',
-    title: 'Mobile Salon Booking System Concept',
-    type: 'Product Idea / Full-stack Concept',
-    description:
-      'A mobile service platform concept where users can book salon services such as haircuts, beard trimming, and massages from nearby mobile salon workers. The idea focuses on convenience, scheduled bookings, service provider availability, and customer-side booking flow.',
-    contribution:
-      'Concept and product planning — architecture-oriented thinking for booking flows and provider availability.',
-    tags: ['Product Design', 'Booking System', 'Mobile App Concept', 'Full-stack Planning'],
-    links: { live: null, github: null },
-  },
-  {
-    id: 'java-rest',
-    title: 'Java REST API Coursework Project',
-    type: 'Academic / Backend / API',
-    description:
-      'A Java-based backend coursework project focused on REST API development, structured endpoints, request handling, and basic backend architecture.',
-    contribution:
-      'Implemented REST endpoints, request validation patterns, and structured API responses as part of academic coursework.',
-    tags: ['Java', 'JAX-RS', 'REST API', 'JSON', 'Backend Development'],
-    links: { live: null, github: '#' },
+    links: { live: 'https://mtanium.com', github: null },
   },
 ]
 
@@ -240,6 +208,8 @@ export default function Projects() {
                   {p.links.live && (
                     <a
                       href={p.links.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-xl border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-cyan-400/40 hover:bg-white/10 sm:flex-none"
                     >
                       <ExternalLink className="h-4 w-4" />

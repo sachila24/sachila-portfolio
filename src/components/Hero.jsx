@@ -83,7 +83,7 @@ export default function Hero() {
               Computer Science Undergraduate
             </span>
             <span className="text-slate-600">|</span>
-            <span className="font-medium text-slate-300">Software Engineering Intern</span>
+            <span className="font-medium text-slate-300">Software Engineer</span>
           </motion.p>
 
           <motion.p
@@ -129,8 +129,8 @@ export default function Hero() {
             </a>
             <a
               href="/cv.pdf"
+              download="Sachila_Dissanayake_CV.pdf"
               className="inline-flex items-center gap-2 rounded-xl border border-purple-500/30 bg-purple-500/10 px-5 py-3 text-sm font-semibold text-purple-100 transition hover:border-purple-400/50 hover:bg-purple-500/15"
-              title="Add your PDF as public/cv.pdf"
             >
               <Download className="h-4 w-4" />
               Download CV

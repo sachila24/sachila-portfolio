@@ -47,7 +47,7 @@ export default function About() {
             custom={2}
             className="mt-6 text-base leading-relaxed text-slate-400 sm:text-lg"
           >
-            I am a Computer Science undergraduate from Sri Lanka and a Software Engineering Intern with
+            I am a Computer Science undergraduate from Sri Lanka and a Software Engineer with
             hands-on experience in full-stack development, Android development, backend APIs, cloud
             deployments, and real-world system debugging. I like building useful products, improving UI/UX,
             working with AWS services, and learning technologies through practical implementation.

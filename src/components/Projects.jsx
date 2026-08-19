@@ -5,6 +5,25 @@ import { fadeUp, staggerContainer } from '../lib/motion'
 
 const projects = [
   {
+    id: 'mam-trading',
+    title: 'MAM Trading Management System',
+    type: 'Finance / Full-stack / Business Management',
+    description:
+      'A finance management system built to digitize loan administration, payment processing, interest calculations, and financial record keeping for a lending business. It centralizes customers, loans, repayment tracking, interest-only loan cycles, principal and interest payments, printable receipts, audit history, and dashboard reporting, with Sinhala/English localization and SQLite-backed local persistence.',
+    contribution:
+      'Worked on real financial workflows and domain logic — interest-only loans with monthly reducing-balance interest cycles, principal and interest payment allocation, receipt/document generation, audit logging, repository-based SQLite synchronization, multi-step payment confirmation, and keeping finance-engine calculations consistent with persisted loan-cycle records.',
+    tags: [
+      'React',
+      'TypeScript',
+      'SQLite',
+      'Finance Logic',
+      'Localization',
+      'Receipt Generation',
+      'Audit Logging',
+    ],
+    links: { live: null, github: null },
+  },
+  {
     id: 'btanium-tracking',
     title: 'bTanium – Live Vehicle Tracking System',
     type: 'Full-stack / Cloud / Android / Real-time Tracking',

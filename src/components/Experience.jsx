@@ -49,7 +49,7 @@ export default function Experience() {
                   <Briefcase className="h-7 w-7 text-cyan-300" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white">Software Engineering Intern</h3>
+                  <h3 className="text-xl font-bold text-white">Software Engineer</h3>
                   <p className="mt-1 text-slate-400">Sri Lanka / Remote</p>
                   <p className="mt-2 inline-flex rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs text-cyan-200/90">
                     July 2025 – Present

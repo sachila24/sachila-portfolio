@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
-import { ExternalLink, Github, Layers, X } from 'lucide-react'
+import { ExternalLink, Github, X } from 'lucide-react'
 import { fadeUp, staggerContainer } from '../lib/motion'
 
 const projects = [
@@ -162,7 +162,7 @@ export default function Projects() {
             <span className="text-gradient">production systems</span>
           </motion.h2>
           <motion.p variants={fadeUp} custom={2} className="mt-4 text-slate-400">
-            Case-study cards with deployable thinking — swap screenshots anytime.
+            Case-study cards with deployable thinking.
           </motion.p>
         </motion.div>
 
@@ -180,15 +180,6 @@ export default function Projects() {
               custom={i}
               className="group glass border-glow flex flex-col overflow-hidden rounded-2xl transition hover:border-cyan-400/35 hover:shadow-glow"
             >
-              <div className="relative aspect-video w-full overflow-hidden border-b border-white/10 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-                <div className="absolute inset-0 bg-grid-fine opacity-40 [background-size:24px_24px]" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 p-6 text-center">
-                  <Layers className="h-10 w-10 text-cyan-400/80" />
-                  <p className="font-mono text-xs text-slate-500">Screenshot placeholder</p>
-                  <p className="max-w-xs text-[11px] text-slate-600">Replace with your image in the card markup</p>
-                </div>
-              </div>
-
               <div className="flex flex-1 flex-col p-6">
                 <p className="font-mono text-[11px] uppercase tracking-wider text-purple-300/90">{p.type}</p>
                 <h3 className="mt-2 text-xl font-bold text-white transition group-hover:text-cyan-100">
